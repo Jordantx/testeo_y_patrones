@@ -1,0 +1,49 @@
+{
+	"info": {
+		"_postman_id": "5af26d19-3703-4638-ac23-95f05fd98c5c",
+		"name": "Instrumento",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "39768987"
+	},
+	"item": [
+		{
+			"name": "Poner Nombre",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/instrumento/guitarra",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"instrumento",
+						"guitarra"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/instrumento",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"instrumento"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
